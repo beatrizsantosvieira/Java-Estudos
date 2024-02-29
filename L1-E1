@@ -1,0 +1,14 @@
+- Lista 1 
+- Exercício 1 
+
+public class Main {
+    public static void main(String argv[]){
+        // declaração das variáveis:
+        double salario = 2500, novoSalario;
+        novoSalario = salario * 1.1;
+        
+        // mostrando valores na tela:
+        System.out.println("O salário antigo do funcionário era " + salario);
+        System.out.println("o novo salário é " + novoSalario);
+    }
+}
