@@ -1,0 +1,14 @@
+- Lista 1
+- Exercício 2
+
+ public class Main {
+    public static void main(String argv[]){
+        // declaração das variáveis:
+        double salarioBase, gratificacao, imposto, salarioFinal; 
+        salarioBase = 1500, gratificacao = salario * 0.05, imposto = salario * 0.07, salarioFinal = salarioBase + gratificacao - imposto;
+        
+        // mostrando valores na tela:
+        System.out.println("O salário original do funcionário era " + salario);
+        System.out.println("O salário final do funcionário será " + salarioFinal);
+    }
+}
