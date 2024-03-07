@@ -1,0 +1,11 @@
+public class ExemploFor2 {
+    public static void main(String argv []) {
+        System.out.println(metodoInt(4));
+    } // fim main ()
+    public static int metodoInt(int n) {
+        int counter, result =1;
+        for (counter=n; counter != 0; counter = counter -1)
+        result = 2 * result;
+        return result;
+    } // fim método
+}
